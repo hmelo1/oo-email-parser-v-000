@@ -10,8 +10,7 @@ class EmailParser
   end
 
   def parse
-    puts "#{@emails}"
     parsed_emails = @emails.split(', ')
-    puts "#{parsed_emails}"
+    parsed_emails
   end
 end
