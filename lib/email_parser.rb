@@ -7,5 +7,6 @@ class EmailParser
 
   def parse(unparsed_emails)
     parsed_email = unparsed_emails.split(', ')
+    puts "#{parsed_email}"
   end
 end
