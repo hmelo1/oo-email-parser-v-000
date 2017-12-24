@@ -11,5 +11,6 @@ class EmailParser
 
   def parse
     puts "#{@emails}"
+    parsed_emails = @emails.split(', ')
   end
 end
