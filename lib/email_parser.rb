@@ -6,6 +6,6 @@ class EmailParser
   attr_accessor :emails
 
   def parse
-    puts "#{emails}"
+    puts "#{@emails}"
   end
 end
